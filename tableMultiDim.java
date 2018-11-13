@@ -1,4 +1,4 @@
-package array;
+package tabSimple;
 
 import util.Table;
 
@@ -19,6 +19,7 @@ public class tableMultiDim {
 //					tab[i][j] =0;
 //			}
 //		}
+		//affiche un tableau a une dimension
 		Table.displayTableMulti(tab);
 	}
 

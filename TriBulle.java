@@ -1,12 +1,12 @@
-package array;
+package tabSimple;
 
 import util.Table;
 
 public class TriBulle {
 	public static void main(String[] args) {
 		
-		
-		int[] tab = Table.creatTable();
+		//cree tableau une dimension de taille demande a l utilisateur et avec des valeurs random
+		int[] tab = Table.createTableRandomValue();
 		
 		boolean tri = false;
 		int temp;
@@ -24,6 +24,7 @@ public class TriBulle {
 			}
 			
 		}
+		//affiche tableau une dimension
 		Table.displayTable(tab);
 	}
 }

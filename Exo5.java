@@ -1,4 +1,4 @@
-package array;
+package tabSimple;
 
 public class Exo5 {
 
@@ -25,7 +25,10 @@ public class Exo5 {
 			System.out.print(tab[i]+"|");;
 		}
 		
+		//////////////////////////////////////////////////
 		System.out.println("");
+		/////////////////////////////////////////////////
+		
 		
 		//version plus simple
 		for(int i =0; i<tab.length;i++) {

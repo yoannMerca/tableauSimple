@@ -1,10 +1,10 @@
-package array;
+package tabSimple;
 
 import util.Table;
 
 public class TriSelection {
 	public static void main(String[] args) {
-		
+		//cree tableau une dimension avec saisi de la taille et des valeurs
 		int[] tab = Table.createTable();
 		int temp;
 		int indice;

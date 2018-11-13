@@ -1,4 +1,4 @@
-package array;
+package tabSimple;
 
 import util.Table;
 

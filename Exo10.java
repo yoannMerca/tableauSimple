@@ -1,4 +1,4 @@
-package array;
+package tabSimple;
 
 
 
@@ -35,7 +35,7 @@ public class Exo10 {
 			}
 		}
 		//affiche tableau
-		System.out.println("le nombre de notes sup à la moyenne = "+ noteSupMoy +" (la moyenne vaut = "+moyenne+")");
+		System.out.println("le nombre de notes sup ï¿½ la moyenne = "+ noteSupMoy +" (la moyenne vaut = "+moyenne+")");
 		sc.close();
 	}
 	

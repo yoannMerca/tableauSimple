@@ -1,4 +1,4 @@
-package array;
+package tabSimple;
 
 import util.Table;
 
@@ -11,13 +11,13 @@ public class Exo12 {
 		int[] tab3 = new int[tab1.length];
 		
 		
-		//fait la somme des valeurs des deux tab
+		//fait la somme des valeurs des deux tableau
 		for(int i =0; i< tab1.length;i++) {
 			tab3[i] = tab2[i] + tab1[i];
 		}
 		
 		
-		//affiche tableau 3
+		//affiche le tableau 3
 		Table.displayTable(tab3);
 	}
 

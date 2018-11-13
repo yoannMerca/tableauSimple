@@ -1,4 +1,4 @@
-package array;
+package tabSimple;
 
 //import java.util.stream.IntStream;
 import util.Table;
@@ -11,6 +11,8 @@ public class Exo11 {
 		for(int i=0; i<tab.length;i++) {
 			System.out.println("Saisir une valeur");
 		}
+		
+		
 		//methode pour faire plus 1 sans changer les valeurs du tableau
 		//IntStream.of(tab).map(x -> x + 1).forEach(System.out::println);
 		

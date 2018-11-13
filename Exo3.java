@@ -1,4 +1,4 @@
-package array;
+package tabSimple;
 
 import java.util.Scanner;
 
@@ -7,7 +7,8 @@ public class Exo3 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Veuillez saisir la taille du tab");
+		//fait saisir la taille du tableau a l utilisateur
+		System.out.println("Veuillez saisir la taille du tableau");
 		int taille = sc.nextInt();
 		int[] tab = new int[taille];
 		int[] tab2 = new int[taille];

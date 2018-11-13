@@ -1,23 +1,24 @@
-package array;
+package tabSimple;
 import util.Table;
 public class Exo8 {
 
 	public static void main(String[] args) {
 			 
-		int nonMult = 0;
-		int mult = 0;
+		int nonMultiple = 0;
+		int multiple = 0;
+		//methode pour creer un tab a une dimension
 		int[] tab = Table.createTable();
 		
-		//boucle pour calculer les mults  de 3 
+		//boucle pour calculer les multiples  de 3 
 			
 		for(int i=0; i<tab.length;i++) {
 			if(tab[i]%3 == 0){
-				mult ++;
+				multiple ++;
 			}else {
-				nonMult++;
+				nonMultiple++;
 			}
 		}
-		System.out.println("nombre de multiple de 3 = "+mult+" nombre de non multilple = "+ nonMult);
+		System.out.println("nombre de multiple de 3 => "+multiple+" nombre de non multilple => "+ nonMultiple);
 	}
 
 }
